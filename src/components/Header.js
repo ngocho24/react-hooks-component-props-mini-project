@@ -2,7 +2,9 @@ import React from "react";
 
 function Header (props){
     return (
-<h1>{props.header}</h1>
+        <header>
+        <h1>{props.blogName}</h1>
+      </header>
     );
 }
 
